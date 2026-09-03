@@ -1,0 +1,138 @@
+{
+  "experiment": "isolated_uicd_seed42",
+  "dataset": "UICD",
+  "seed": 42,
+  "lr": 5e-05,
+  "epochs": 2,
+  "freeze_vision": false,
+  "freeze_language": true,
+  "bleu4_per_epoch": [
+    0.1632,
+    0.138
+  ],
+  "cider_per_epoch": [
+    0.6123,
+    0.347
+  ],
+  "meteor_per_epoch": [
+    0.3163,
+    0.3282
+  ],
+  "train_loss_per_epoch": [
+    6.0347,
+    5.3697
+  ],
+  "val_loss_per_epoch": [
+    5.3338,
+    5.1138
+  ],
+  "rt_log": [],
+  "best_bleu4": 0.16318330041487483,
+  "best_cider": 0.6122696078629707,
+  "best_meteor": 0.316301649614495,
+  "best_epoch": 1,
+  "best_predictions": [
+    "a group of small yellow fish swim around the corals at the bottom of the seabed",
+    "there is a sea turtle swimming in the sea, and there is a fish swimming in the water",
+    "a group of small fish swims near the seafloor of the seafloore, near the seafloore of the seabed",
+    "a butterfly butterfly butterfly fish swims near the coral reef",
+    "a large blue fish swims near the seafloor on the seabed",
+    "a small orange fish swims in the seafloor of the seabed, near the coral reef",
+    "a small fish swims near the coral reef on the seabed",
+    "a diver swims near a sunken ship in the seawater",
+    "a coral grows on the seabed near the seafloore, a coral grows on the seafloore",
+    "a diver examines the coral at the bottom of the seabed",
+    "a close - up view of a large fish swimming in the seawater",
+    "a group of small fish swims near the coral reef at the bottom of the seabed",
+    "a diver swims in the seabed near the sunken ship, which lies on the seafloor of the seabed",
+    "a dolphin swims in the blue water near the seafloore",
+    "a diver wearing a diving suit and a diving suit, dives near the seabed of the seabed",
+    "a coral grows on the seabed near the seafloore, a reef grows on the seabed",
+    "a group of small fish swims in the seabed near the seafloor",
+    "a diver swims in the sea near the coral reef",
+    "a diver swims in the seabed near the seafloor on the seafloor of the seabed",
+    "a diver swims near the coral reef and a diver swims near the reef"
+  ],
+  "best_references": [
+    [
+      "There are many corals of different colors and shapes growing on the seabed .",
+      "Many small fish swims around the coral at the seafloor ."
+    ],
+    [
+      "A squid with orange spots swims in the seawater .",
+      "A close-up of a small orange squid swimming in seawater ."
+    ],
+    [
+      "A diver and a group of small fish swim in the water .",
+      "A group of small black striped fish swim in the water ."
+    ],
+    [
+      "A yellow butterfly fish with black stripes swims on the coral .",
+      "A yellow butterfly fish with distinct black stripes swims near coral ."
+    ],
+    [
+      "There is a dark purple fish swimming from left to right near the reef .",
+      "A dark purple fish swims from left to right near the reef ."
+    ],
+    [
+      "There is a clownfish swimming among the sea anemones .",
+      "A small golden fish with white stripes plays in an anemone ."
+    ],
+    [
+      "A large area of coral with different shapes grows on the seabed .",
+      "A large fish with many spots swims above the coral on the seabed ."
+    ],
+    [
+      "A man swims towards a shipwreck on the seafloor .",
+      "A man in swimming trunks swims toward the wreckage on the seafloor ."
+    ],
+    [
+      "The rocks on the seabed are covered with a variety of different shaped corals .",
+      "There are various shaped corals growing on the rocks on the seabed ."
+    ],
+    [
+      "There are some corals and aquatic plants growing on the shipwreck on the seabed .",
+      "There are some green aquatic plants growing on the shipwreck on the seabed ."
+    ],
+    [
+      "A large fish swims in the clear water .",
+      "A fish with a brown body with some white and light spots swims in the sea ."
+    ],
+    [
+      "There are many small black and white fish swimming above the coral on the seabed .",
+      "A group of small black and white fish swims above the coral on the seabed ."
+    ],
+    [
+      "Both divers wear black suits and swim above the seabed where seaweed grows .",
+      "Two divers explore around some cylinder structures covered in seaweed ."
+    ],
+    [
+      "A black dolphin swims below the surface of the sea .",
+      "A huge dolphin swims in the blue sea ."
+    ],
+    [
+      "A school of small fish swims in the waters around the divers .",
+      "Four divers carrying oxygen tanks dive near the seafloor ."
+    ],
+    [
+      "The image shows a clear underwater environment with a variety of brightly colored corals .",
+      "Colorful corals grow on the reefs at the seafloor ."
+    ],
+    [
+      "A group of small fish swims to the left along the coral on the seabed .",
+      "A group of fish swims along the coral in the same direction ."
+    ],
+    [
+      "A diver dressed in black swims above the seabed where seaweed grows .",
+      "A diver dives near some aquatic plants growing on the rock-strewn seabed ."
+    ],
+    [
+      "Some seaweeds grow on the seabed and a diver swims along it .",
+      "A diver wearing a professional diving equipment swims above the seabed ."
+    ],
+    [
+      "A diver dressed in black and carrying an oxygen tank searches around a sunken ship .",
+      "A diver searches around a rusty sunken ship as a small fish swims around him ."
+    ]
+  ]
+}

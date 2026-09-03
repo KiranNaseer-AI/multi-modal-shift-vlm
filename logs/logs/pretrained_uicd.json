@@ -1,0 +1,8 @@
+{
+  "experiment": "pretrained_uicd",
+  "dataset": "UICD",
+  "adaptation": "none",
+  "bleu4": 0.0819,
+  "cider": 0.3497,
+  "meteor": 0.1921
+}

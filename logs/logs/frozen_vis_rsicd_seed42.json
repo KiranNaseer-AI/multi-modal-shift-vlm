@@ -1,0 +1,51 @@
+{
+  "experiment": "frozen_vis_rsicd_seed42",
+  "dataset": "RSICD",
+  "seed": 42,
+  "lr": 0.0001,
+  "epochs": 5,
+  "freeze_vision": true,
+  "freeze_language": false,
+  "bleu4_per_epoch": [
+    0.3979,
+    0.4318,
+    0.4071,
+    0.4647,
+    0.4746
+  ],
+  "cider_per_epoch": [
+    2.0687,
+    2.2253,
+    2.1673,
+    2.4044,
+    2.3717
+  ],
+  "meteor_per_epoch": [
+    0.368,
+    0.3645,
+    0.369,
+    0.3625,
+    0.3556
+  ],
+  "train_loss_per_epoch": [
+    0.9804,
+    0.576,
+    0.5265,
+    0.4892,
+    0.4505
+  ],
+  "val_loss_per_epoch": [
+    0.9128,
+    0.9037,
+    0.9267,
+    0.9272,
+    0.9332
+  ],
+  "best_bleu4": 0.4746,
+  "best_cider": 2.3717,
+  "best_meteor": 0.3556,
+  "best_epoch": 5,
+  "rt_log": [],
+  "reconstructed_from_console_log": true,
+  "note": "Reconstructed from console log after Kaggle session loss. Per-epoch metrics transcribed verbatim from printed output of the completed run. rt_log and best_predictions were not printed and are not recoverable for this seed."
+}

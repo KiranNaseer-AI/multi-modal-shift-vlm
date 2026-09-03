@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pdf.bak
+checkpoints/
+*.pt
+*.ckpt
+
+# Uncomment if any single log file is unexpectedly large (>50MB) --
+# GitHub blocks pushes over 100MB per file and warns above 50MB.
+# Consider Git LFS instead of ignoring if that happens.
+# logs/*.json

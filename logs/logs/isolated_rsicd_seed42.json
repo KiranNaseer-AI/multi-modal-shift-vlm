@@ -1,0 +1,36 @@
+{
+  "experiment": "isolated_rsicd_seed42",
+  "dataset": "RSICD",
+  "seed": 42,
+  "lr": 5e-05,
+  "epochs": 2,
+  "freeze_vision": false,
+  "freeze_language": true,
+  "bleu4_per_epoch": [
+    0.1723,
+    0.2503
+  ],
+  "cider_per_epoch": [
+    0.2457,
+    0.784
+  ],
+  "meteor_per_epoch": [
+    0.2913,
+    0.3043
+  ],
+  "train_loss_per_epoch": [
+    5.9508,
+    5.5069
+  ],
+  "val_loss_per_epoch": [
+    6.3438,
+    6.2274
+  ],
+  "best_bleu4": 0.2503,
+  "best_cider": 0.784,
+  "best_meteor": 0.3043,
+  "best_epoch": 2,
+  "rt_log": [],
+  "reconstructed_from_console_log": true,
+  "note": "Reconstructed from console log after Kaggle session loss. Per-epoch metrics transcribed verbatim from printed output of the completed run. rt_log and best_predictions were not printed and are not recoverable for this seed."
+}

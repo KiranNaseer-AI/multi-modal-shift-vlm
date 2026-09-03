@@ -1,0 +1,346 @@
+% ============================================================
+% references.bib
+% "Balance Is Not a Universal Good" -- IEEE TMM
+%
+
+% ============================================================
+
+% ---------- BLIP / VLM backbones ----------
+@inproceedings{li2022blip,
+  author    = {Junnan Li and Dongxu Li and Caiming Xiong and Steven Hoi},
+  title     = {{BLIP}: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2022}
+}
+
+@inproceedings{li2023blip2,
+  author    = {Junnan Li and Dongxu Li and Silvio Savarese and Steven Hoi},
+  title     = {{BLIP-2}: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2023}
+}
+
+@inproceedings{radford2021clip,
+  author    = {Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever},
+  title     = {Learning Transferable Visual Models from Natural Language Supervision},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2021}
+}
+
+@inproceedings{chen2024internvl,
+  author    = {Zhe Chen and Jiannan Wu and Wenhai Wang and Weijie Su and Guo Chen and Sen Xing and Muyan Zhong and Qinglong Zhang and Xizhou Zhu and Lewei Lu},
+  title     = {{InternVL}: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {24185--24198},
+  year      = {2024}
+}
+
+% ---------- Staged / instruction tuning ----------
+@inproceedings{liu2023llava,
+  author    = {Haotian Liu and Chunyuan Li and Qingyang Wu and Yong Jae Lee},
+  title     = {Visual Instruction Tuning},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2023}
+}
+
+@inproceedings{liu2024llavaimproved,
+  author    = {Haotian Liu and Chunyuan Li and Yuheng Li and Yong Jae Lee},
+  title     = {Improved Baselines with Visual Instruction Tuning},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {26296--26306},
+  year      = {2024}
+}
+
+@inproceedings{li2023llavamed,
+  author    = {Chunyuan Li and Cliff Wong and Sheng Zhang and Naoto Usuyama and Haotian Liu and Jianwei Yang and Tristan Naumann and Hoifung Poon and Jianfeng Gao},
+  title     = {{LLaVA-Med}: Training a Large Language-and-Vision Assistant for Biomedicine in One Day},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2023}
+}
+
+% ---------- Parameter-efficient fine-tuning ----------
+@inproceedings{hu2022lora,
+  author    = {Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen},
+  title     = {{LoRA}: Low-Rank Adaptation of Large Language Models},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022}
+}
+
+@article{hayou2025plop,
+  author    = {Soufiane Hayou and Nikhil Ghosh and Bin Yu},
+  title     = {{PLoP}: Precise {LoRA} Placement for Efficient Fine-Tuning of Large Models},
+  journal   = {arXiv preprint arXiv:2506.20629},
+  year      = {2025}
+}
+
+@inproceedings{houlsby2019adapters,
+  author    = {Neil Houlsby and Andrei Giurgiu and Stanislaw Jastrzebski and Bruna Morrone and Quentin de Laroussilhe and Andrea Gesmundo and Mona Attariyan and Sylvain Gelly},
+  title     = {Parameter-Efficient Transfer Learning for {NLP}},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2019}
+}
+
+% ---------- Multimodal imbalance: surveys and benchmarks ----------
+@article{balancebenchmark2025,
+  author    = {Shaoxuan Xu and Menglu Cui and Chengxiang Huang and Hongfa Wang and Di Hu},
+  title     = {{BalanceBenchmark}: A Survey for Multimodal Imbalance Learning},
+  journal   = {arXiv preprint arXiv:2502.10816},
+  year      = {2025}
+}
+
+@article{costoflanguage2026,
+  author    = {H. A. Z. Shahgir and others},
+  title     = {The Cost of Language: Centroid Erasure Exposes and Exploits Modal Competition in Multimodal Language Models},
+  journal   = {arXiv preprint arXiv:2604.14363},
+  year      = {2026}
+}
+
+% ---------- Multimodal imbalance: gradient modulation methods ----------
+@inproceedings{peng2022ogm,
+  author    = {Xiaokang Peng and Yake Wei and Andong Deng and Dong Wang and Di Hu},
+  title     = {Balanced Multimodal Learning via On-the-Fly Gradient Modulation},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {8238--8247},
+  year      = {2022}
+}
+
+@article{wei2024onthefly,
+  author    = {Yake Wei and Di Hu and Henghui Du and Ji-Rong Wen},
+  title     = {On-the-Fly Modulation for Balanced Multimodal Learning},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year      = {2024},
+  note      = {arXiv:2410.11582}
+}
+
+@inproceedings{li2023agm,
+  author    = {Hong Li and Xingyu Li and Pengbo Hu and Yinuo Lei and Chunxiao Li and Yi Zhou},
+  title     = {Boosting Multi-modal Model Performance with Adaptive Gradient Modulation},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2023}
+}
+
+@inproceedings{fan2023pmr,
+  author    = {Yunfeng Fan and Wenchao Xu and Haozhao Wang and Junxiao Wang and Song Guo},
+  title     = {{PMR}: Prototypical Modal Rebalance for Multimodal Learning},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2023}
+}
+
+@inproceedings{guo2024cggm,
+  author    = {Zirun Guo and Tao Jin and Jingyuan Chen and Zhou Zhao},
+  title     = {Classifier-Guided Gradient Modulation for Enhanced Multimodal Learning},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2024}
+}
+
+@inproceedings{wang2020gradblending,
+  author    = {Weiyao Wang and Du Tran and Matt Feiszli},
+  title     = {What Makes Training Multi-Modal Classification Networks Hard?},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {12695--12705},
+  year      = {2020}
+}
+
+@inproceedings{zhang2024mla,
+  author    = {Xiaohui Zhang and Jaehong Yoon and Mohit Bansal and Huaxiu Yao},
+  title     = {Multimodal Representation Learning by Alternating Unimodal Adaptation},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2024}
+}
+
+@inproceedings{wei2024valuation,
+  author    = {Yake Wei and Ruoxuan Feng and Zihe Wang and Di Hu},
+  title     = {Enhancing Multimodal Cooperation via Sample-Level Modality Valuation},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {27338--27347},
+  year      = {2024}
+}
+
+% ---------- Gradient imbalance specific to VLMs ----------
+@inproceedings{li2025mbq,
+  author    = {Shiyao Li and Yingchun Hu and Xuefei Ning and Xihui Liu and Ke Hong and Xiaotao Jia and Xiuhong Li and Yaqi Yan and Pei Ran and Guohao Dai and Shengen Yan and Huazhong Yang and Yu Wang},
+  title     = {{MBQ}: Modality-Balanced Quantization for Large Vision-Language Models},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {4167--4177},
+  year      = {2025}
+}
+
+@inproceedings{gim2025seesaw,
+  author    = {JuneHyoung Kwon and MiHyeon Kim and Eunju Lee and Juhwan Choi and YoungBin Kim},
+  title     = {See-Saw Modality Balance: See Gradient, and Sew Impaired Vision-Language Balance to Mitigate Dominant Modality Bias},
+  booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
+  pages     = {4364--4378},
+  year      = {2025}
+}
+
+@article{paretolora2026,
+  author    = {Xiwen Wei and Mark Nutter and Madhusudhanan Srinivasan and Radu Marculescu},
+  title     = {{Pareto LoRA}: Mitigating Modality Imbalance in Unified Multimodal Models via Pareto-Optimal Gradient Integration},
+  journal   = {arXiv preprint arXiv:2606.17296},
+  year      = {2026}
+}
+
+% ---------- Task-level gradient balancing (contrast, not overlap) ----------
+@inproceedings{chen2018gradnorm,
+  author    = {Zhao Chen and Vijay Badrinarayanan and Chen-Yu Lee and Andrew Rabinovich},
+  title     = {{GradNorm}: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {794--803},
+  year      = {2018}
+}
+
+@inproceedings{yu2020pcgrad,
+  author    = {Tianhe Yu and Saurabh Kumar and Abhishek Gupta and Sergey Levine and Karol Hausman and Chelsea Finn},
+  title     = {Gradient Surgery for Multi-Task Learning},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+
+@inproceedings{sener2018mgda,
+  author    = {Ozan Sener and Vladlen Koltun},
+  title     = {Multi-Task Learning as Multi-Objective Optimization},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2018}
+}
+
+% ---------- Fine-tuning stability / catastrophic forgetting ----------
+@article{gnc2022,
+  author    = {Chen Xu and Le Yao and Zhihong Deng},
+  title     = {Improving Stability of Fine-Tuning Pretrained Language Models via Component-Wise Gradient Norm Clipping},
+  journal   = {arXiv preprint arXiv:2210.10325},
+  year      = {2022}
+}
+
+@inproceedings{kumar2022finetuning,
+  author    = {Ananya Kumar and Aditi Raghunathan and Robbie Jones and Tengyu Ma and Percy Liang},
+  title     = {Fine-Tuning Can Distort Pretrained Features and Underperform Out-of-Distribution},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022}
+}
+
+@inproceedings{howard2018ulmfit,
+  author    = {Jeremy Howard and Sebastian Ruder},
+  title     = {Universal Language Model Fine-Tuning for Text Classification},
+  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2018}
+}
+
+@inproceedings{wortsman2022robustft,
+  author    = {Mitchell Wortsman and Gabriel Ilharco and Jong Wook Kim and Mike Li and Simon Kornblith and Rebecca Roelofs and Raphael Gontijo Lopes and Hannaneh Hajishirzi and Ali Farhadi and Hongseok Namkoong and Ludwig Schmidt},
+  title     = {Robust Fine-Tuning of Zero-Shot Models},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2022}
+}
+
+% ---------- Image captioning: metrics and evaluation ----------
+@inproceedings{papineni2002bleu,
+  author    = {Kishore Papineni and Salim Roukos and Todd Ward and Wei-Jing Zhu},
+  title     = {{BLEU}: A Method for Automatic Evaluation of Machine Translation},
+  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  pages     = {311--318},
+  year      = {2002}
+}
+
+@inproceedings{vedantam2015cider,
+  author    = {Ramakrishna Vedantam and C. Lawrence Zitnick and Devi Parikh},
+  title     = {{CIDEr}: Consensus-Based Image Description Evaluation},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {4566--4575},
+  year      = {2015}
+}
+
+@inproceedings{banerjee2005meteor,
+  author    = {Satanjeev Banerjee and Alon Lavie},
+  title     = {{METEOR}: An Automatic Metric for {MT} Evaluation with Improved Correlation with Human Judgments},
+  booktitle = {ACL Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization},
+  pages     = {65--72},
+  year      = {2005}
+}
+
+@article{chen2015cococaptions,
+  author    = {Xinlei Chen and Hao Fang and Tsung-Yi Lin and Ramakrishna Vedantam and Saurabh Gupta and Piotr Doll{\'a}r and C. Lawrence Zitnick},
+  title     = {Microsoft {COCO} Captions: Data Collection and Evaluation Server},
+  journal   = {arXiv preprint arXiv:1504.00325},
+  year      = {2015}
+}
+
+% ---------- Datasets ----------
+@article{lu2018rsicd,
+  author    = {Xiaoqiang Lu and Binqiang Wang and Xiangtao Zheng and Xuelong Li},
+  title     = {Exploring Models and Data for Remote Sensing Image Caption Generation},
+  journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume    = {56},
+  number    = {4},
+  pages     = {2183--2195},
+  year      = {2018}
+}
+
+@inproceedings{pelka2018roco,
+  author    = {Obioma Pelka and Sven Koitka and Johannes R{\"u}ckert and Felix Nensa and Christoph M. Friedrich},
+  title     = {Radiology Objects in {COntext} ({ROCO}): A Multimodal Image Dataset},
+  booktitle = {MICCAI Workshop on Large-Scale Annotation of Biomedical Data and Expert Label Synthesis},
+  pages     = {180--189},
+  year      = {2018}
+}
+
+@article{ruckert2024rocov2,
+  author    = {Johannes R{\"u}ckert and Louise Bloch and Raphael Br{\"u}ngel and Ahmad Idrissi-Yaghir and Henning Sch{\"a}fer and Cynthia S. Schmidt and Sven Koitka and Obioma Pelka and Asma Ben Abacha and Alba G. Seco de Herrera and Henning M{\"u}ller and Peter A. Horn and Felix Nensa and Christoph M. Friedrich},
+  title     = {{ROCOv2}: Radiology Objects in {COntext} Version 2, an Updated Multimodal Image Dataset},
+  journal   = {Scientific Data},
+  volume    = {11},
+  number    = {1},
+  pages     = {688},
+  year      = {2024}
+}
+
+% ---------- Domain shift / robustness ----------
+@inproceedings{koh2021wilds,
+  author    = {Pang Wei Koh and Shiori Sagawa and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao},
+  title     = {{WILDS}: A Benchmark of In-the-Wild Distribution Shifts},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2021}
+}
+
+@inproceedings{taori2020measuring,
+  author    = {Rohan Taori and Achal Dave and Vaishaal Shankar and Nicholas Carlini and Benjamin Recht and Ludwig Schmidt},
+  title     = {Measuring Robustness to Natural Distribution Shifts in Image Classification},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+
+% ---------- Optimization ----------
+@inproceedings{loshchilov2019adamw,
+  author    = {Ilya Loshchilov and Frank Hutter},
+  title     = {Decoupled Weight Decay Regularization},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2019}
+}
+
+@inproceedings{micikevicius2018mixed,
+  author    = {Paulius Micikevicius and Sharan Narang and Jonah Alben and Gregory Diamos and Erich Elsen and David Garcia and Boris Ginsburg and Michael Houston and Oleksii Kuchaiev and Ganesh Venkatesh and Hao Wu},
+  title     = {Mixed Precision Training},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2018}
+}
+
+@misc{uicd,
+  title        = {{UICD}: Underwater Image Captioning Dataset},
+  howpublished = {\url{https://www.kaggle.com/datasets/kiranmuhammad/uicd-underwater-dataset}},
+  note         = {Accessed 2026},
+  year         = {2026}
+}
+
+@inproceedings{zhang2020bertscore,
+  author    = {Tianyi Zhang and Varsha Kishore and Felix Wu and
+              Kilian Q. Weinberger and Yoav Artzi},
+  title     = {{BERTScore}: Evaluating Text Generation with {BERT}},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2020}
+}
+@InProceedings{wei2025improving,
+  author    = {Wei, Shicai and Luo, Chunbo and Luo, Yang},
+  title     = {Improving Multimodal Learning via Imbalanced Learning},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {2250--2259},
+  year      = {2025}
+}

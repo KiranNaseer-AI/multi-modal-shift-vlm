@@ -1,0 +1,8 @@
+{
+  "experiment": "pretrained_rocov2",
+  "dataset": "ROCOv2",
+  "adaptation": "none",
+  "bleu4": 0.0024,
+  "cider": 0.0242,
+  "meteor": 0.049
+}

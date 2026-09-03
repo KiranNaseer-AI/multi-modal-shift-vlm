@@ -1,0 +1,142 @@
+{
+  "experiment": "multimodal_lora_rocov2_seed0",
+  "dataset": "ROCOv2",
+  "seed": 0,
+  "method": "multimodal_lora",
+  "lr": 0.0001,
+  "epochs": 5,
+  "target_modules": [
+    "query",
+    "value",
+    "qkv",
+    "projection"
+  ],
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "bleu4_per_epoch": [
+    0.0205,
+    0.0211,
+    0.0246,
+    0.0233,
+    0.023
+  ],
+  "cider_per_epoch": [
+    0.067,
+    0.064,
+    0.106,
+    0.0814,
+    0.0856
+  ],
+  "meteor_per_epoch": [
+    0.134,
+    0.1432,
+    0.1428,
+    0.1449,
+    0.1371
+  ],
+  "train_loss_per_epoch": [
+    5.6155,
+    5.1833,
+    5.0497,
+    4.9655,
+    4.9054
+  ],
+  "val_loss_per_epoch": [
+    5.2322,
+    5.0599,
+    4.9665,
+    4.9085,
+    4.8652
+  ],
+  "rt_log": [],
+  "n_visual_lora_params": 48,
+  "n_language_lora_params": 96,
+  "best_bleu4": 0.02460078852058797,
+  "best_cider": 0.1060036947533681,
+  "best_meteor": 0.14277493721134243,
+  "best_epoch": 3,
+  "best_predictions": [
+    "chest x - ray of the patient ' s patient showing a right - sided pleural effusion with a right - sided pleural effusion and a right - sided pl",
+    "angiogram of the right internal carotid artery showing the left internal carotid artery and the right internal carotid artery",
+    "intraoperative cholangiopancreatography of the abdomen and pelvis showing a large, well - circumscribed mass in the right upper quadrant of the",
+    "computed tomography scan of the chest showing a large left pleural effusion",
+    "contrast - enhanced computed tomography scan of the abdomen and pelvis showing a mass in the pancreatic head",
+    "contrast - enhanced computed tomography scan of the abdomen and pelvis showing a heterogeneous mass in the pancreatic head",
+    "positron emission tomography - computed tomography of the abdomen and pelvis showing a large mass in the right lower pole of the pancreas",
+    "axial t2 - weighted mri of the pelvis showing a hyperintense lesion in the right femoral head",
+    "sagittal t2 - weighted mri scan of the cervical spine showing a large cystic lesion in the spinal cord",
+    "chest x - ray of the patient ' s patient, showing a right - sided pleural effusion with a right - sided pleural effusion and a right - sided pl",
+    "coronary angiogram of the right anterior oblique view showing the right anterior oblique view of the right internal carotid artery and the left anterior oblique view of the right internal carotid artery",
+    "postoperative cholangiopancreatography of the abdomen and pelvis showing a complete gastrointestinal stenosis in the right gastroescopy",
+    "computed tomography scan of the patient ' s head showing a mass in the right temporal lobe",
+    "chest x - ray of the patient ' s patient showing bilateral pleural effusion and bilateral pleural effusion",
+    "angiographic image of the left internal carotid artery showing the right internal carotid artery and the left internal carotid artery",
+    "magnetic resonance imaging of the brain in a patient with severe brain cancer, showing a hyperintense lesion in the left parietal lobe and the left parietal lobe",
+    "sagittal view of the sagittal view of the sagittal view of the sagittal view of the sagittal view of the sagittal view of the sagittal",
+    "chest x - ray of the patient on admission to the hospital, showing bilateral pulmonary opacity and bilateral pleural effusion",
+    "axial t2 - weighted mri image of the right knee showing a large cystic lesion in the right knee, with a large cystic lesion in the posterior aspect of the right knee",
+    "chest x - ray of the patient ' s patient showing bilateral pulmonary emphysema"
+  ],
+  "best_references": [
+    [
+      "Chest X-ray showing enlarged cardiac silhouette with cardiothoracic ratio of 70%, and mild pulmonary congestion."
+    ],
+    [
+      "Digital subtraction ureterogram with contrast injected as the sheath was retracted demonstrating a fistula between the distal ureter and an IMA branch (black arrow). Also seen, multiple filling defects within the left renal pelvis and left dilated proximal ureter, consistent with blood clots"
+    ],
+    [
+      "Fifty-eight-year-old woman with 2 cancers: one seen on DBT but not visible with US, and one seen on US but not on DBT. She presented for screening with DBT. (A) Right 2D MLO view was negative, but asymmetry was seen (B) medially on the craniocaudal (CC) view. DBT (C) MLO and (D) CC views show architectural distortion (arrows) in the upper inner quadrant. US was negative in the upper inner quadrant (no image), but showed a suspicious mass in the 9 o\u2019clock position (arrows in (E). (F) The upper inner quadrant mass was biopsied with DBT-guidance (scout view) and was an invasive lobular carcinoma. The 9 o\u2019clock mass was biopsied with US-guidance and was an invasive ductal carcinoma."
+    ],
+    [
+      "CT scan image for lung cancer."
+    ],
+    [
+      "A giant retroperitoneal tumor."
+    ],
+    [
+      "Biphasic CECT of the abdomen showing dilated CBD in its entire course (arrow) with an abrupt cutoff in the distal end before joining the duodenum."
+    ],
+    [
+      "18F-FDG PET-CT showing FDG avid soft tissue periampullary thickening measuring ~2.7 \u00d7 1.2 cm with a maximum standard unit value (SUVmax) of 6.9 extending into the D2\u2013D3 junction with ill-defined fat planes with pancreas medially (arrow)."
+    ],
+    [
+      "Early axial T2-weighted MRI."
+    ],
+    [
+      "Late sagittal T2-weighted MRI."
+    ],
+    [
+      "Chest X-ray revealing bilateral pleural effusions right middle lobe consolidation."
+    ],
+    [
+      "DSA showing tight left internal carotid artery stenosis.Foot note: DSA, Digital Subtraction Angiography."
+    ],
+    [
+      "Abdominal X-ray. Improvement of the obstruction was confirmed."
+    ],
+    [
+      "Neck and head computed tomography image showing left odontogenic infection."
+    ],
+    [
+      "Initial chext X-ray at presentation to the ER which shows B/L diffuse patchy infiltrates"
+    ],
+    [
+      "Retrograde portography performed with 40\u00a0mL iodinated contrast medium over a 10 French guiding catheter."
+    ],
+    [
+      "Coronal plane of brain magnetic resonance imaging (MRI) showing an increased bilateral signal intensity involving the cortex and subcortical white matter of the occipital lobe (Arrows) on the T2-weighted fluid-attenuated inversion recovery (FLAIR)."
+    ],
+    [
+      "Visualization of the different insertion angles (exemplary representation of a patient of conventional surgery group A). White arrow represents the optimal insertion vector (theoretical; through the middle cranial fossa). Green arrow represents the theoretical hybrid CBCT-laser-fluoroscopic-guided insertion vector. Red arrow represents the actual surgical insertion vector. (A) angle of deviation of the conventional surgery vector from the optimal insertion vector (angle alpha). (B) Angle of deviation of the hybrid CBCT-laser-fluoroscopic-guided insertion vector from the optimal insertion vector (angle beta). (C) Cutaneous distance between actual surgical vector and the theoretical hybrid CBCT-laser-fluoroscopic-guided vector"
+    ],
+    [
+      "Chest X-ray. Chest X-ray showed no abnormal findings such as obvious infiltration shadows or consolidative change. R: right side."
+    ],
+    [
+      "Preoperative ankle MRI showed initial diagnosis of peroneal brevis split tear. The yellow circle indicated a split tear of peroneal brevis tendon."
+    ],
+    [
+      "Chest X-ray obtained upon initial presentation. Notable for left lower lobar consolidation with associated pleural effusion, and atelectasis."
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+# Environment 2: RMS-Balanced FT, Multimodal LoRA
+# Python 3.13.15 (verify with: python --version)
+# NOTE: transformers==4.41.2 will NOT install cleanly here -- the
+# tokenizers wheel it depends on has no build for Python 3.13.
+# This range was the working fix found during this project;
+# re-pin to an exact version once you confirm what resolves.
+transformers>=4.44,<4.50
+peft==0.11.1
+datasets
+pycocoevalcap
+nltk
+evaluate
+bert-score
+torch
+Pillow
+numpy

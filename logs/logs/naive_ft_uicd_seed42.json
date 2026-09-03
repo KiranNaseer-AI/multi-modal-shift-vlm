@@ -1,0 +1,430 @@
+{
+  "experiment": "naive_ft_uicd_seed42",
+  "dataset": "UICD",
+  "seed": 42,
+  "lr": 0.0001,
+  "epochs": 5,
+  "freeze_vision": false,
+  "freeze_language": false,
+  "bleu4_per_epoch": [
+    0.1744,
+    0.2124,
+    0.263,
+    0.23,
+    0.217
+  ],
+  "cider_per_epoch": [
+    0.7089,
+    0.8992,
+    1.0575,
+    0.9017,
+    0.8391
+  ],
+  "meteor_per_epoch": [
+    0.3769,
+    0.3941,
+    0.4035,
+    0.4024,
+    0.3911
+  ],
+  "train_loss_per_epoch": [
+    1.7373,
+    0.642,
+    0.5708,
+    0.535,
+    0.5035
+  ],
+  "val_loss_per_epoch": [
+    0.7283,
+    0.6908,
+    0.6404,
+    0.6466,
+    0.6575
+  ],
+  "rt_log": [
+    [
+      10,
+      10.918145246631456
+    ],
+    [
+      20,
+      17.80933809818179
+    ],
+    [
+      30,
+      28.909640623517095
+    ],
+    [
+      40,
+      13.574907871361765
+    ],
+    [
+      50,
+      4.965707694025015
+    ],
+    [
+      60,
+      3.086577385261608
+    ],
+    [
+      70,
+      3.463399275681418
+    ],
+    [
+      80,
+      2.1130348633401534
+    ],
+    [
+      90,
+      2.699539589972057
+    ],
+    [
+      100,
+      2.345124138567743
+    ],
+    [
+      110,
+      3.0774901360061904
+    ],
+    [
+      120,
+      2.1119451803257654
+    ],
+    [
+      130,
+      2.160960727471074
+    ],
+    [
+      140,
+      2.3159956301048217
+    ],
+    [
+      150,
+      2.002117136651204
+    ],
+    [
+      160,
+      1.936754308257964
+    ],
+    [
+      170,
+      2.3528276074621135
+    ],
+    [
+      180,
+      2.5375789376236537
+    ],
+    [
+      190,
+      2.1424180571992584
+    ],
+    [
+      200,
+      2.1598426107720665
+    ],
+    [
+      210,
+      2.873919715443573
+    ],
+    [
+      220,
+      2.2181501603906457
+    ],
+    [
+      230,
+      2.420891289984871
+    ],
+    [
+      240,
+      2.215942480307031
+    ],
+    [
+      250,
+      1.5862416620011976
+    ],
+    [
+      260,
+      2.0850098082488926
+    ],
+    [
+      270,
+      1.9508362030873752
+    ],
+    [
+      280,
+      2.1596695869189046
+    ],
+    [
+      290,
+      2.04808366872248
+    ],
+    [
+      300,
+      1.9742038126254529
+    ],
+    [
+      310,
+      2.3637342579194836
+    ],
+    [
+      320,
+      2.6049250390583234
+    ],
+    [
+      330,
+      2.3163131161811528
+    ],
+    [
+      340,
+      1.9549551771092908
+    ],
+    [
+      350,
+      1.3508421235223065
+    ],
+    [
+      360,
+      1.4912874127036768
+    ],
+    [
+      370,
+      1.9279108704484178
+    ],
+    [
+      380,
+      1.8918789983258
+    ],
+    [
+      390,
+      1.8589576045304
+    ],
+    [
+      400,
+      2.838068892511133
+    ],
+    [
+      410,
+      1.9398372182868462
+    ],
+    [
+      420,
+      1.409040258405438
+    ],
+    [
+      430,
+      0.9684919322959565
+    ],
+    [
+      440,
+      2.0930908194953264
+    ],
+    [
+      450,
+      1.5599476269462051
+    ],
+    [
+      460,
+      1.8410450789705897
+    ],
+    [
+      470,
+      1.6427477880637023
+    ],
+    [
+      480,
+      1.5455759009708434
+    ],
+    [
+      490,
+      1.7479380512452454
+    ],
+    [
+      500,
+      1.9595429027857245
+    ],
+    [
+      510,
+      1.9950140665697975
+    ],
+    [
+      520,
+      1.8978619316714826
+    ],
+    [
+      530,
+      2.144926870058333
+    ],
+    [
+      540,
+      1.8152593354701487
+    ],
+    [
+      550,
+      2.055893957758331
+    ],
+    [
+      560,
+      2.3632452094355845
+    ],
+    [
+      570,
+      1.8631942510735509
+    ],
+    [
+      580,
+      2.054701799864978
+    ],
+    [
+      590,
+      2.43762949425136
+    ],
+    [
+      600,
+      2.5956287750261686
+    ],
+    [
+      610,
+      2.1082324689143355
+    ],
+    [
+      620,
+      1.8882951529619456
+    ],
+    [
+      630,
+      2.2959055219341753
+    ],
+    [
+      640,
+      2.307250978795423
+    ],
+    [
+      650,
+      2.3524582991349567
+    ],
+    [
+      660,
+      2.047873340994727
+    ],
+    [
+      670,
+      1.6719745717038244
+    ],
+    [
+      680,
+      2.100057683653046
+    ],
+    [
+      690,
+      1.7226548075531196
+    ]
+  ],
+  "best_bleu4": 0.26295170577817234,
+  "best_cider": 1.0575114823408194,
+  "best_meteor": 0.40349905629373795,
+  "best_epoch": 3,
+  "best_predictions": [
+    "several small yellow fish swim in the blue seawater above the coral reef.",
+    "a close - up of a colorful butterfly fish swimming in blue seawater.",
+    "a group of small fish swims in the blue seawater.",
+    "a butterfly fish swims in the blue seawater.",
+    "a close - up of a small blue fish swimming in the seawater.",
+    "a close - up of a clownfish swimming among sea anemones.",
+    "several small fish swim above the coral on the seabed.",
+    "a diver swims towards the bow of a sunken ship.",
+    "there are many corals of different shapes growing on the seabed.",
+    "there is a group of small fish swimming around the sunken ship.",
+    "a close - up of a dolphin swimming in blue seawater.",
+    "a group of small fish swim in the seawater above the coral reef.",
+    "two divers dressed in black swim in the waters near the underwater reef.",
+    "a dolphin swims in blue water.",
+    "two divers wearing diving goggles dive above the seabed.",
+    "there are many colorful corals growing on the reef at the seafloor.",
+    "a group of fish swims in the blue seawater.",
+    "a diver dressed in black swims above the seabed covered in stones.",
+    "a diver dressed in black swims above the seabed covered in stones.",
+    "a small fish with a green tail swims near the reef."
+  ],
+  "best_references": [
+    [
+      "There are many corals of different colors and shapes growing on the seabed .",
+      "Many small fish swims around the coral at the seafloor ."
+    ],
+    [
+      "A squid with orange spots swims in the seawater .",
+      "A close-up of a small orange squid swimming in seawater ."
+    ],
+    [
+      "A diver and a group of small fish swim in the water .",
+      "A group of small black striped fish swim in the water ."
+    ],
+    [
+      "A yellow butterfly fish with black stripes swims on the coral .",
+      "A yellow butterfly fish with distinct black stripes swims near coral ."
+    ],
+    [
+      "There is a dark purple fish swimming from left to right near the reef .",
+      "A dark purple fish swims from left to right near the reef ."
+    ],
+    [
+      "There is a clownfish swimming among the sea anemones .",
+      "A small golden fish with white stripes plays in an anemone ."
+    ],
+    [
+      "A large area of coral with different shapes grows on the seabed .",
+      "A large fish with many spots swims above the coral on the seabed ."
+    ],
+    [
+      "A man swims towards a shipwreck on the seafloor .",
+      "A man in swimming trunks swims toward the wreckage on the seafloor ."
+    ],
+    [
+      "The rocks on the seabed are covered with a variety of different shaped corals .",
+      "There are various shaped corals growing on the rocks on the seabed ."
+    ],
+    [
+      "There are some corals and aquatic plants growing on the shipwreck on the seabed .",
+      "There are some green aquatic plants growing on the shipwreck on the seabed ."
+    ],
+    [
+      "A large fish swims in the clear water .",
+      "A fish with a brown body with some white and light spots swims in the sea ."
+    ],
+    [
+      "There are many small black and white fish swimming above the coral on the seabed .",
+      "A group of small black and white fish swims above the coral on the seabed ."
+    ],
+    [
+      "Both divers wear black suits and swim above the seabed where seaweed grows .",
+      "Two divers explore around some cylinder structures covered in seaweed ."
+    ],
+    [
+      "A black dolphin swims below the surface of the sea .",
+      "A huge dolphin swims in the blue sea ."
+    ],
+    [
+      "A school of small fish swims in the waters around the divers .",
+      "Four divers carrying oxygen tanks dive near the seafloor ."
+    ],
+    [
+      "The image shows a clear underwater environment with a variety of brightly colored corals .",
+      "Colorful corals grow on the reefs at the seafloor ."
+    ],
+    [
+      "A group of small fish swims to the left along the coral on the seabed .",
+      "A group of fish swims along the coral in the same direction ."
+    ],
+    [
+      "A diver dressed in black swims above the seabed where seaweed grows .",
+      "A diver dives near some aquatic plants growing on the rock-strewn seabed ."
+    ],
+    [
+      "Some seaweeds grow on the seabed and a diver swims along it .",
+      "A diver wearing a professional diving equipment swims above the seabed ."
+    ],
+    [
+      "A diver dressed in black and carrying an oxygen tank searches around a sunken ship .",
+      "A diver searches around a rusty sunken ship as a small fish swims around him ."
+    ]
+  ]
+}

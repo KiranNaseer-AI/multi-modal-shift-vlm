@@ -1,0 +1,118 @@
+{
+  "experiment": "isolated_rocov2_seed0",
+  "dataset": "ROCOv2",
+  "seed": 0,
+  "lr": 5e-05,
+  "epochs": 2,
+  "freeze_vision": false,
+  "freeze_language": true,
+  "bleu4_per_epoch": [
+    0.021,
+    0.0203
+  ],
+  "cider_per_epoch": [
+    0.068,
+    0.0713
+  ],
+  "meteor_per_epoch": [
+    0.1224,
+    0.1294
+  ],
+  "train_loss_per_epoch": [
+    6.1563,
+    5.7648
+  ],
+  "val_loss_per_epoch": [
+    5.8295,
+    5.6573
+  ],
+  "rt_log": [],
+  "best_bleu4": 0.020989312437480322,
+  "best_cider": 0.06797160319926349,
+  "best_meteor": 0.12244228304210097,
+  "best_epoch": 1,
+  "best_predictions": [
+    "chest x - ray showing bilateral pleural effusion and pleural effusion",
+    "angiographic angiogram of the right upper artery showing the left upper ventricular artery and the right upper ventricular artery showing the right ventricular artery",
+    "ultrasonography of the right ventricular artery showing a small mass of the left ventricular artery and a small mass of the right ventricular ventricular ventricular ventric",
+    "computed tomography scan of the chest showing a large mass in the right lobe and a large mass in the left lobe",
+    "computed tomography scan of the abdomen showing a large mass in the right pancreas and a large mass in the right pancreas of the pancreas of the pancreas",
+    "computed tomography scan of the abdomen showing a large mass in the right pancreas and a large mass in the right pancreas of the pancreas",
+    "positron emission emission emission tomography emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission emission",
+    "magnetic resonance imaging of the right pelvic showing a mass in the right pelvic and a mass in the left pelvic of the right pelvic",
+    "sagittal t2 - weighted magnetic resonance imaging of the cervical spine showing the spinal cord of the spinal cord and the spinal cord of the spinal cord",
+    "chest x - ray showing the pleural effusion and pleural effusion",
+    "angiographic angiogram image of the right ventricular artery showing the right ventricular artery and the right ventricular artery",
+    "postoperative radiograph of the patient ' s kidney showing a small bowel and a small bowel with a small bowel and a small bowel",
+    "computed tomography scan of the head showing the left ventricle and the right ventricle of the left ventricle",
+    "chest x - ray showing bilateral pleural opacities",
+    "postoperative angiogram of the patient ' s kidney showing the right ventricular artery and the right ventricular artery showing the right ventricular artery",
+    "magnetic resonance imaging of the brain showing the left brain and the right brain area of the brain",
+    "sagittal angle of the anterior vertebral vertebral vertebral vertebral vertebral vertebral vertebral vertebral",
+    "chest x - ray showing right - sided pleural effusion in the right - sided pleural effusion",
+    "t2 - weighted magnetic resonance imaging of the right pelvic of the right pelvic of the right pelvic of the right pelvic",
+    "chest x - ray of the patient with the right lung and left lung area of the right lung"
+  ],
+  "best_references": [
+    [
+      "Chest X-ray showing enlarged cardiac silhouette with cardiothoracic ratio of 70%, and mild pulmonary congestion."
+    ],
+    [
+      "Digital subtraction ureterogram with contrast injected as the sheath was retracted demonstrating a fistula between the distal ureter and an IMA branch (black arrow). Also seen, multiple filling defects within the left renal pelvis and left dilated proximal ureter, consistent with blood clots"
+    ],
+    [
+      "Fifty-eight-year-old woman with 2 cancers: one seen on DBT but not visible with US, and one seen on US but not on DBT. She presented for screening with DBT. (A) Right 2D MLO view was negative, but asymmetry was seen (B) medially on the craniocaudal (CC) view. DBT (C) MLO and (D) CC views show architectural distortion (arrows) in the upper inner quadrant. US was negative in the upper inner quadrant (no image), but showed a suspicious mass in the 9 o\u2019clock position (arrows in (E). (F) The upper inner quadrant mass was biopsied with DBT-guidance (scout view) and was an invasive lobular carcinoma. The 9 o\u2019clock mass was biopsied with US-guidance and was an invasive ductal carcinoma."
+    ],
+    [
+      "CT scan image for lung cancer."
+    ],
+    [
+      "A giant retroperitoneal tumor."
+    ],
+    [
+      "Biphasic CECT of the abdomen showing dilated CBD in its entire course (arrow) with an abrupt cutoff in the distal end before joining the duodenum."
+    ],
+    [
+      "18F-FDG PET-CT showing FDG avid soft tissue periampullary thickening measuring ~2.7 \u00d7 1.2 cm with a maximum standard unit value (SUVmax) of 6.9 extending into the D2\u2013D3 junction with ill-defined fat planes with pancreas medially (arrow)."
+    ],
+    [
+      "Early axial T2-weighted MRI."
+    ],
+    [
+      "Late sagittal T2-weighted MRI."
+    ],
+    [
+      "Chest X-ray revealing bilateral pleural effusions right middle lobe consolidation."
+    ],
+    [
+      "DSA showing tight left internal carotid artery stenosis.Foot note: DSA, Digital Subtraction Angiography."
+    ],
+    [
+      "Abdominal X-ray. Improvement of the obstruction was confirmed."
+    ],
+    [
+      "Neck and head computed tomography image showing left odontogenic infection."
+    ],
+    [
+      "Initial chext X-ray at presentation to the ER which shows B/L diffuse patchy infiltrates"
+    ],
+    [
+      "Retrograde portography performed with 40\u00a0mL iodinated contrast medium over a 10 French guiding catheter."
+    ],
+    [
+      "Coronal plane of brain magnetic resonance imaging (MRI) showing an increased bilateral signal intensity involving the cortex and subcortical white matter of the occipital lobe (Arrows) on the T2-weighted fluid-attenuated inversion recovery (FLAIR)."
+    ],
+    [
+      "Visualization of the different insertion angles (exemplary representation of a patient of conventional surgery group A). White arrow represents the optimal insertion vector (theoretical; through the middle cranial fossa). Green arrow represents the theoretical hybrid CBCT-laser-fluoroscopic-guided insertion vector. Red arrow represents the actual surgical insertion vector. (A) angle of deviation of the conventional surgery vector from the optimal insertion vector (angle alpha). (B) Angle of deviation of the hybrid CBCT-laser-fluoroscopic-guided insertion vector from the optimal insertion vector (angle beta). (C) Cutaneous distance between actual surgical vector and the theoretical hybrid CBCT-laser-fluoroscopic-guided vector"
+    ],
+    [
+      "Chest X-ray. Chest X-ray showed no abnormal findings such as obvious infiltration shadows or consolidative change. R: right side."
+    ],
+    [
+      "Preoperative ankle MRI showed initial diagnosis of peroneal brevis split tear. The yellow circle indicated a split tear of peroneal brevis tendon."
+    ],
+    [
+      "Chest X-ray obtained upon initial presentation. Notable for left lower lobar consolidation with associated pleural effusion, and atelectasis."
+    ]
+  ]
+}

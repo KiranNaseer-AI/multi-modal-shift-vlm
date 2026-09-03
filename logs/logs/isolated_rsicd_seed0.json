@@ -1,0 +1,138 @@
+{
+  "experiment": "isolated_rsicd_seed0",
+  "dataset": "RSICD",
+  "seed": 0,
+  "lr": 5e-05,
+  "epochs": 2,
+  "freeze_vision": false,
+  "freeze_language": true,
+  "bleu4_per_epoch": [
+    0.199,
+    0.2584
+  ],
+  "cider_per_epoch": [
+    0.6532,
+    0.8668
+  ],
+  "meteor_per_epoch": [
+    0.2786,
+    0.3048
+  ],
+  "train_loss_per_epoch": [
+    5.9539,
+    5.4896
+  ],
+  "val_loss_per_epoch": [
+    6.3194,
+    6.2175
+  ],
+  "rt_log": [],
+  "best_bleu4": 0.25835255413637365,
+  "best_cider": 0.866783569488308,
+  "best_meteor": 0.3047962273781518,
+  "best_epoch": 2,
+  "best_predictions": [
+    "some buildings are close to an airport with a parking lot in front of it",
+    "several planes are parked in an airport near a parking lot",
+    "a plane is parked in an airport near some buildings",
+    "a plane is parked in an airport near a parking lot with parking lots and a parking lot next to it",
+    "many buildings are near a road and a parking lot in a large industrial area with a parking lot in front of it",
+    "many planes are parked in an airport near a parking lot",
+    "many planes are parked in an airport near some buildings",
+    "some buildings are close to a runway and a parking lot in a airport",
+    "a plane is parked in an airport near some buildings",
+    "several planes are parked in an airport near a parking lot",
+    "many planes are parked in an airport near a parking lot",
+    "many planes are parked in an airport near a parking lot",
+    "many planes are parked in an airport near some buildings",
+    "some buildings and some green trees are in an airport with a parking lot next to it",
+    "many planes are parked in an airport near some buildings",
+    "many planes are in an airport near some buildings and some green trees",
+    "many buildings are located in an airport near a road and a parking lot",
+    "many planes are parked in an airport near a parking lot",
+    "several planes are parked in an airport near a parking lot",
+    "many planes are parked in an airport near a parking lot near a parking lot"
+  ],
+  "best_references": [
+    [
+      "the asphalted and airport runways divide the field into several rounded rectangles arranged next to which buildings and a road are located.",
+      "the tarmac and airport runways divide the field into several orderly arranged rounded rectangles  next to which is buildings and a road ."
+    ],
+    [
+      "Many white planes are parked at the airport.",
+      "a motorway is built next to the airport."
+    ],
+    [
+      "a parking apron with an airplane parked on and connected to a runway is lying on bare ground near which there are some square buildings.",
+      "a parking apron with a plane parked on and connected to a runway is lying on the bareland  near which there are some square buildings ."
+    ],
+    [
+      "a ploygon terminal is built between a square surrounded by roads and runways built on the ground.",
+      "a ploygon terminal building is built between a square surrounded by roads and runways built in the field ."
+    ],
+    [
+      "the ploygon terminal is built near the road and other buildings on the other side including asphalt and runways.",
+      "the ploygon terminal building is built near road and other buildings  on the other side of which is tarmac and runways ."
+    ],
+    [
+      "the terminal built on the parking apron is semi-closed with an airplane around it.",
+      "the terminal building built on the parking apron is semi closed  with some plane around ."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "There are a lot of buildings at the airport.",
+      "there are several square at the airport ."
+    ],
+    [
+      "an airport with many buildings next to it.",
+      "the airport is surrounded by green land and brown plants ."
+    ],
+    [
+      "the ground has a large and small aircraft.",
+      "the airport facilities are complete ."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "There's a lot of plane parked at the airport.",
+      "the airport a lot of white building ."
+    ],
+    [
+      "on the ground with a wide track.",
+      "a white plane parked in front ."
+    ],
+    [
+      "several aircraft parked on airfields .",
+      "next to the airport is empty ."
+    ],
+    [
+      "near the airport is very empty.",
+      "planted many trees next to the airport ."
+    ],
+    [
+      "uniform field pieces.",
+      "wide variety of equipment at the airport ."
+    ],
+    [
+      "some planes are parked in an airport.",
+      "Some planes are parked at an airport."
+    ],
+    [
+      "There are several planes at the airport.",
+      "the airport construction very much ."
+    ],
+    [
+      "There's a lot of planes on the airfields.",
+      "the airport highway is outside ."
+    ]
+  ]
+}

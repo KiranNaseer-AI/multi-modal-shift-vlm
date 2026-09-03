@@ -1,0 +1,118 @@
+{
+  "experiment": "isolated_rocov2_seed123",
+  "dataset": "ROCOv2",
+  "seed": 123,
+  "lr": 5e-05,
+  "epochs": 2,
+  "freeze_vision": false,
+  "freeze_language": true,
+  "bleu4_per_epoch": [
+    0.0189,
+    0.0159
+  ],
+  "cider_per_epoch": [
+    0.0583,
+    0.0475
+  ],
+  "meteor_per_epoch": [
+    0.1264,
+    0.1224
+  ],
+  "train_loss_per_epoch": [
+    6.166,
+    5.8247
+  ],
+  "val_loss_per_epoch": [
+    5.895,
+    5.7371
+  ],
+  "rt_log": [],
+  "best_bleu4": 0.0189245068155423,
+  "best_cider": 0.0583200082833037,
+  "best_meteor": 0.12638980354527696,
+  "best_epoch": 1,
+  "best_predictions": [
+    "chest x - ray showing bilateral pleural pleural effusion in the right upper lobe, and left pleural pleural pleural pleural in the pleur",
+    "angiogram of the right artery showing the dilation of the left artery and the dilation of the dilation of the dilation of the dilated artery",
+    "ultrasonography of the abdomen shows a small scale of the right ventricle, with a small mass of the right ventricle, and a small mass of the right ventricle",
+    "computed tomography scan of the chest showing the right lobe of the right lobe, and the right lobe of the left lobe",
+    "computed tomography scan of the abdomen showing the right kidney and the right kidney with the right kidney and the right kidney with the left kidney",
+    "computed tomography scan of the abdomen showing a large intitoid of the liver and a large intitoid of the liver with a large intitoidular splenic",
+    "positron emission tomography imaging shows a large uptake of the left upper lobe of the positron, with a large uptake of the left lobe, uptaker, uptake",
+    "t1 - weighted magnetic resonance imaging of the right pelvic showing a large mass in the right side of the pelvic, and the right side of the right side of the pel",
+    "sagittal t2 - weighted magnetic resonance imaging of the cervical spine, showing the l2 - weighted spine, and l2 - weighted spinal cord lesion of the spinal",
+    "chest x - ray showing the right upper lobe and right upper lobe",
+    "angiographic angiogram of the right anterior artery showing a small dilation of the proximal artery, and a small dilation of the proximal artery of the proximal",
+    "postoperative radiograph of the abdomen showing the small intorma of the pelvis and the small intorma of the pelvis",
+    "computed tomography scan of the brain showing the right temporal sinus and the left temporal sinus, with the right temporal sinus, and the left sinus of the sinus",
+    "chest x - ray showing bilateral pleural opacities",
+    "coronary angiographic angiogram showing a large thrombolic catheteric catheteric catheteric cathetic in the right side of the right side of",
+    "axial mri showing the right temporal lesion of the brain with the right temporal lesion of the cerebral lesion, and the left temporal lesion of the cerebral les",
+    "sagittal radiograph of the neck, showing the angle of the neck and the angle of the neck, and the angle of the sagittal wall of the sagittal wall of the",
+    "chest x - ray showing the right - sided pleural effusion and right - sided pleural effusion",
+    "mri image of the right brain showing the fibrophalication of the left brain and the right brain area of the left brain with the right brain and the left side of the brain with the",
+    "chest x - ray showing the right upper lobe and left upper lobe"
+  ],
+  "best_references": [
+    [
+      "Chest X-ray showing enlarged cardiac silhouette with cardiothoracic ratio of 70%, and mild pulmonary congestion."
+    ],
+    [
+      "Digital subtraction ureterogram with contrast injected as the sheath was retracted demonstrating a fistula between the distal ureter and an IMA branch (black arrow). Also seen, multiple filling defects within the left renal pelvis and left dilated proximal ureter, consistent with blood clots"
+    ],
+    [
+      "Fifty-eight-year-old woman with 2 cancers: one seen on DBT but not visible with US, and one seen on US but not on DBT. She presented for screening with DBT. (A) Right 2D MLO view was negative, but asymmetry was seen (B) medially on the craniocaudal (CC) view. DBT (C) MLO and (D) CC views show architectural distortion (arrows) in the upper inner quadrant. US was negative in the upper inner quadrant (no image), but showed a suspicious mass in the 9 o\u2019clock position (arrows in (E). (F) The upper inner quadrant mass was biopsied with DBT-guidance (scout view) and was an invasive lobular carcinoma. The 9 o\u2019clock mass was biopsied with US-guidance and was an invasive ductal carcinoma."
+    ],
+    [
+      "CT scan image for lung cancer."
+    ],
+    [
+      "A giant retroperitoneal tumor."
+    ],
+    [
+      "Biphasic CECT of the abdomen showing dilated CBD in its entire course (arrow) with an abrupt cutoff in the distal end before joining the duodenum."
+    ],
+    [
+      "18F-FDG PET-CT showing FDG avid soft tissue periampullary thickening measuring ~2.7 \u00d7 1.2 cm with a maximum standard unit value (SUVmax) of 6.9 extending into the D2\u2013D3 junction with ill-defined fat planes with pancreas medially (arrow)."
+    ],
+    [
+      "Early axial T2-weighted MRI."
+    ],
+    [
+      "Late sagittal T2-weighted MRI."
+    ],
+    [
+      "Chest X-ray revealing bilateral pleural effusions right middle lobe consolidation."
+    ],
+    [
+      "DSA showing tight left internal carotid artery stenosis.Foot note: DSA, Digital Subtraction Angiography."
+    ],
+    [
+      "Abdominal X-ray. Improvement of the obstruction was confirmed."
+    ],
+    [
+      "Neck and head computed tomography image showing left odontogenic infection."
+    ],
+    [
+      "Initial chext X-ray at presentation to the ER which shows B/L diffuse patchy infiltrates"
+    ],
+    [
+      "Retrograde portography performed with 40\u00a0mL iodinated contrast medium over a 10 French guiding catheter."
+    ],
+    [
+      "Coronal plane of brain magnetic resonance imaging (MRI) showing an increased bilateral signal intensity involving the cortex and subcortical white matter of the occipital lobe (Arrows) on the T2-weighted fluid-attenuated inversion recovery (FLAIR)."
+    ],
+    [
+      "Visualization of the different insertion angles (exemplary representation of a patient of conventional surgery group A). White arrow represents the optimal insertion vector (theoretical; through the middle cranial fossa). Green arrow represents the theoretical hybrid CBCT-laser-fluoroscopic-guided insertion vector. Red arrow represents the actual surgical insertion vector. (A) angle of deviation of the conventional surgery vector from the optimal insertion vector (angle alpha). (B) Angle of deviation of the hybrid CBCT-laser-fluoroscopic-guided insertion vector from the optimal insertion vector (angle beta). (C) Cutaneous distance between actual surgical vector and the theoretical hybrid CBCT-laser-fluoroscopic-guided vector"
+    ],
+    [
+      "Chest X-ray. Chest X-ray showed no abnormal findings such as obvious infiltration shadows or consolidative change. R: right side."
+    ],
+    [
+      "Preoperative ankle MRI showed initial diagnosis of peroneal brevis split tear. The yellow circle indicated a split tear of peroneal brevis tendon."
+    ],
+    [
+      "Chest X-ray obtained upon initial presentation. Notable for left lower lobar consolidation with associated pleural effusion, and atelectasis."
+    ]
+  ]
+}

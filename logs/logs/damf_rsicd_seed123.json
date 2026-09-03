@@ -1,0 +1,810 @@
+{
+  "experiment": "damf_rsicd_seed123",
+  "dataset": "RSICD",
+  "seed": 123,
+  "stage1_lr": 5e-05,
+  "stage1_epochs": 2,
+  "stage2_lr": 1e-05,
+  "stage2_epochs": 3,
+  "bleu4_per_epoch": [
+    0.2391,
+    0.2384,
+    0.4572,
+    0.4503,
+    0.4554
+  ],
+  "cider_per_epoch": [
+    0.9775,
+    0.6234,
+    2.4682,
+    2.4174,
+    2.3717
+  ],
+  "meteor_per_epoch": [
+    0.2783,
+    0.3025,
+    0.3803,
+    0.3831,
+    0.3703
+  ],
+  "train_loss_per_epoch": [
+    5.9728,
+    5.5124,
+    2.1592,
+    0.6363,
+    0.5478
+  ],
+  "val_loss_per_epoch": [
+    6.3385,
+    6.2284,
+    1.0454,
+    0.9159,
+    0.896
+  ],
+  "rt_log": [
+    [
+      1100,
+      4.879215098789741
+    ],
+    [
+      1110,
+      11.435657847121119
+    ],
+    [
+      1120,
+      11.09969739012604
+    ],
+    [
+      1130,
+      14.578130922640115
+    ],
+    [
+      1140,
+      15.070757992816697
+    ],
+    [
+      1150,
+      13.062530302187943
+    ],
+    [
+      1160,
+      17.658560657519054
+    ],
+    [
+      1170,
+      11.421908447931449
+    ],
+    [
+      1180,
+      15.277372809742127
+    ],
+    [
+      1190,
+      18.391910436110347
+    ],
+    [
+      1200,
+      14.460320414185771
+    ],
+    [
+      1210,
+      15.403869049898484
+    ],
+    [
+      1220,
+      14.454961180402426
+    ],
+    [
+      1230,
+      10.6094216946175
+    ],
+    [
+      1240,
+      14.504724244180887
+    ],
+    [
+      1250,
+      18.72078255772794
+    ],
+    [
+      1260,
+      18.441514825840652
+    ],
+    [
+      1270,
+      18.307505465483043
+    ],
+    [
+      1280,
+      16.469833389428423
+    ],
+    [
+      1290,
+      15.417474103367196
+    ],
+    [
+      1300,
+      15.05994990255827
+    ],
+    [
+      1310,
+      15.56853382961446
+    ],
+    [
+      1320,
+      18.562329792510774
+    ],
+    [
+      1330,
+      12.999740807372008
+    ],
+    [
+      1340,
+      13.469328120360542
+    ],
+    [
+      1350,
+      13.631523863683109
+    ],
+    [
+      1360,
+      10.279255025684726
+    ],
+    [
+      1370,
+      10.462513200680354
+    ],
+    [
+      1380,
+      8.318576366635334
+    ],
+    [
+      1390,
+      12.100093167695878
+    ],
+    [
+      1400,
+      9.439781446417397
+    ],
+    [
+      1410,
+      9.609622849233814
+    ],
+    [
+      1420,
+      6.844951602311259
+    ],
+    [
+      1430,
+      7.696701847921866
+    ],
+    [
+      1440,
+      6.77665660607725
+    ],
+    [
+      1450,
+      6.664102436227573
+    ],
+    [
+      1460,
+      6.5515848505296574
+    ],
+    [
+      1470,
+      5.478146968849812
+    ],
+    [
+      1480,
+      4.688070169847829
+    ],
+    [
+      1490,
+      4.966082494033406
+    ],
+    [
+      1500,
+      5.058772590346687
+    ],
+    [
+      1510,
+      4.261282841311996
+    ],
+    [
+      1520,
+      4.146928111239743
+    ],
+    [
+      1530,
+      4.1225826222841
+    ],
+    [
+      1540,
+      3.8848319030770737
+    ],
+    [
+      1550,
+      4.226362551456745
+    ],
+    [
+      1560,
+      4.025743077804297
+    ],
+    [
+      1570,
+      2.096637652510855
+    ],
+    [
+      1580,
+      3.732476169861348
+    ],
+    [
+      1590,
+      3.0354130932099035
+    ],
+    [
+      1600,
+      2.4848996226946336
+    ],
+    [
+      1610,
+      3.4987285220412616
+    ],
+    [
+      1620,
+      3.011515971660312
+    ],
+    [
+      1630,
+      2.7513707890006533
+    ],
+    [
+      1640,
+      3.5792627370168097
+    ],
+    [
+      1650,
+      2.9466307311782383
+    ],
+    [
+      1660,
+      3.032503907669044
+    ],
+    [
+      1670,
+      3.3861635598952677
+    ],
+    [
+      1680,
+      2.6683333677559737
+    ],
+    [
+      1690,
+      2.42942719693054
+    ],
+    [
+      1700,
+      2.582339535934891
+    ],
+    [
+      1710,
+      2.6366885015695662
+    ],
+    [
+      1720,
+      2.6352924552168755
+    ],
+    [
+      1730,
+      2.991739772421393
+    ],
+    [
+      1740,
+      2.8714063044669182
+    ],
+    [
+      1750,
+      2.468187577258261
+    ],
+    [
+      1760,
+      2.015872042013278
+    ],
+    [
+      1770,
+      2.437955051436662
+    ],
+    [
+      1780,
+      1.9059256374046891
+    ],
+    [
+      1790,
+      2.3805287399379544
+    ],
+    [
+      1800,
+      2.8445252059768302
+    ],
+    [
+      1810,
+      2.200867486010973
+    ],
+    [
+      1820,
+      2.367095988396608
+    ],
+    [
+      1830,
+      2.3446167993094393
+    ],
+    [
+      1840,
+      2.087476575029754
+    ],
+    [
+      1850,
+      2.2628322675886343
+    ],
+    [
+      1860,
+      2.4992116100565287
+    ],
+    [
+      1870,
+      2.5212592495667963
+    ],
+    [
+      1880,
+      2.1933879194917827
+    ],
+    [
+      1890,
+      2.13068168094649
+    ],
+    [
+      1900,
+      2.409664619909019
+    ],
+    [
+      1910,
+      2.3147880408338417
+    ],
+    [
+      1920,
+      2.4206685621787805
+    ],
+    [
+      1930,
+      2.2308641563877134
+    ],
+    [
+      1940,
+      2.0536420474592454
+    ],
+    [
+      1950,
+      2.2060649008753486
+    ],
+    [
+      1960,
+      2.1742045944152797
+    ],
+    [
+      1970,
+      2.263623339937812
+    ],
+    [
+      1980,
+      2.3149418830247046
+    ],
+    [
+      1990,
+      1.9774898730987511
+    ],
+    [
+      2000,
+      2.003060494486509
+    ],
+    [
+      2010,
+      2.110051099635652
+    ],
+    [
+      2020,
+      2.0749157173913395
+    ],
+    [
+      2030,
+      1.654897224388638
+    ],
+    [
+      2040,
+      1.2478725892464966
+    ],
+    [
+      2050,
+      2.038744668889438
+    ],
+    [
+      2060,
+      1.9743625071540567
+    ],
+    [
+      2070,
+      1.8395891164612397
+    ],
+    [
+      2080,
+      1.8642765977212192
+    ],
+    [
+      2090,
+      2.0301880295346733
+    ],
+    [
+      2100,
+      1.8502594918316249
+    ],
+    [
+      2110,
+      1.7542836131251707
+    ],
+    [
+      2120,
+      2.009977226704134
+    ],
+    [
+      2130,
+      2.280151695486361
+    ],
+    [
+      2140,
+      2.028687973260221
+    ],
+    [
+      2150,
+      1.9467036225079324
+    ],
+    [
+      2160,
+      2.046367253813866
+    ],
+    [
+      2170,
+      2.0925806970980054
+    ],
+    [
+      2180,
+      2.1975640835872037
+    ],
+    [
+      2190,
+      1.8908915398208879
+    ],
+    [
+      2200,
+      1.8055141960654444
+    ],
+    [
+      2210,
+      2.105878901676543
+    ],
+    [
+      2220,
+      1.4182238378453138
+    ],
+    [
+      2230,
+      1.6169230652451534
+    ],
+    [
+      2240,
+      2.032673849827664
+    ],
+    [
+      2250,
+      1.9430367077403796
+    ],
+    [
+      2260,
+      1.5979153768783811
+    ],
+    [
+      2270,
+      1.9206273663159605
+    ],
+    [
+      2280,
+      2.2332868092107216
+    ],
+    [
+      2290,
+      2.0901611500364408
+    ],
+    [
+      2300,
+      1.7199160006504783
+    ],
+    [
+      2310,
+      1.8186455449226013
+    ],
+    [
+      2320,
+      1.679443430378513
+    ],
+    [
+      2330,
+      1.9342797752410432
+    ],
+    [
+      2340,
+      2.052366164381325
+    ],
+    [
+      2350,
+      1.9767734107182648
+    ],
+    [
+      2360,
+      1.863927312942466
+    ],
+    [
+      2370,
+      1.830628662274528
+    ],
+    [
+      2380,
+      1.5504544071048207
+    ],
+    [
+      2390,
+      1.6241403184671204
+    ],
+    [
+      2400,
+      1.9064520427054994
+    ],
+    [
+      2410,
+      1.629499654693864
+    ],
+    [
+      2420,
+      1.8064164260608913
+    ],
+    [
+      2430,
+      1.5443075729884692
+    ],
+    [
+      2440,
+      1.8521972908611541
+    ],
+    [
+      2450,
+      1.8365383908094595
+    ],
+    [
+      2460,
+      1.6429867367069084
+    ],
+    [
+      2470,
+      1.964566824708145
+    ],
+    [
+      2480,
+      1.6989692989877834
+    ],
+    [
+      2490,
+      1.7062796645291463
+    ],
+    [
+      2500,
+      1.9840806383620537
+    ],
+    [
+      2510,
+      1.8635926403186098
+    ],
+    [
+      2520,
+      1.8604791099897722
+    ],
+    [
+      2530,
+      1.7757942634195938
+    ],
+    [
+      2540,
+      1.7121195091189738
+    ],
+    [
+      2550,
+      1.7909457609393753
+    ],
+    [
+      2560,
+      1.6615004140065583
+    ],
+    [
+      2570,
+      2.1084508071882997
+    ],
+    [
+      2580,
+      1.8908397637695245
+    ],
+    [
+      2590,
+      1.780920136192991
+    ],
+    [
+      2600,
+      1.932077939133026
+    ],
+    [
+      2610,
+      1.6604480369574113
+    ],
+    [
+      2620,
+      1.7234262787273587
+    ],
+    [
+      2630,
+      1.6310752331328073
+    ],
+    [
+      2640,
+      1.8765515603603153
+    ],
+    [
+      2650,
+      1.6988420027931401
+    ],
+    [
+      2660,
+      2.0395627221510213
+    ],
+    [
+      2670,
+      1.8032664710737545
+    ],
+    [
+      2680,
+      1.9109221458450807
+    ],
+    [
+      2690,
+      1.9099279191527279
+    ],
+    [
+      2700,
+      1.879147640846571
+    ],
+    [
+      2710,
+      1.6700433441940787
+    ],
+    [
+      2720,
+      1.2881373762439268
+    ],
+    [
+      2730,
+      1.7354176177715868
+    ]
+  ],
+  "best_bleu4": 0.4572080340852989,
+  "best_cider": 2.4681924813774963,
+  "best_meteor": 0.3802911018988713,
+  "best_epoch": 3,
+  "best_predictions": [
+    "several planes are parked at an airport.",
+    "many planes are parked at an airport.",
+    "some planes are parked at an airport.",
+    "some planes are parked at an airport.",
+    "some planes are parked in an airport.",
+    "many planes are parked in an airport.",
+    "many planes are parked in an airport.",
+    "some buildings are close to a piece of bare land.",
+    "some buildings and some green trees are in an airport.",
+    "many planes are parked near a terminal in an airport.",
+    "many planes are parked in an airport.",
+    "many planes are parked at an airport.",
+    "many planes are parked at an airport.",
+    "some buildings and some green trees are located in an airport.",
+    "many planes are parked in an airport.",
+    "many planes are in an airport with many buildings and green trees.",
+    "some buildings and some green trees are located in an airport.",
+    "some planes are parked at an airport.",
+    "several planes are parked in an airport near some buildings and some green trees.",
+    "many planes are parked in an airport."
+  ],
+  "best_references": [
+    [
+      "the asphalted and airport runways divide the field into several rounded rectangles arranged next to which buildings and a road are located.",
+      "the tarmac and airport runways divide the field into several orderly arranged rounded rectangles  next to which is buildings and a road ."
+    ],
+    [
+      "Many white planes are parked at the airport.",
+      "a motorway is built next to the airport."
+    ],
+    [
+      "a parking apron with an airplane parked on and connected to a runway is lying on bare ground near which there are some square buildings.",
+      "a parking apron with a plane parked on and connected to a runway is lying on the bareland  near which there are some square buildings ."
+    ],
+    [
+      "a ploygon terminal is built between a square surrounded by roads and runways built on the ground.",
+      "a ploygon terminal building is built between a square surrounded by roads and runways built in the field ."
+    ],
+    [
+      "the ploygon terminal is built near the road and other buildings on the other side including asphalt and runways.",
+      "the ploygon terminal building is built near road and other buildings  on the other side of which is tarmac and runways ."
+    ],
+    [
+      "the terminal built on the parking apron is semi-closed with an airplane around it.",
+      "the terminal building built on the parking apron is semi closed  with some plane around ."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "There are a lot of buildings at the airport.",
+      "there are several square at the airport ."
+    ],
+    [
+      "an airport with many buildings next to it.",
+      "the airport is surrounded by green land and brown plants ."
+    ],
+    [
+      "the ground has a large and small aircraft.",
+      "the airport facilities are complete ."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "Many aircraft are parked in an airport.",
+      "Many planes are parked at an airport."
+    ],
+    [
+      "There's a lot of plane parked at the airport.",
+      "the airport a lot of white building ."
+    ],
+    [
+      "on the ground with a wide track.",
+      "a white plane parked in front ."
+    ],
+    [
+      "several aircraft parked on airfields .",
+      "next to the airport is empty ."
+    ],
+    [
+      "near the airport is very empty.",
+      "planted many trees next to the airport ."
+    ],
+    [
+      "uniform field pieces.",
+      "wide variety of equipment at the airport ."
+    ],
+    [
+      "some planes are parked in an airport.",
+      "Some planes are parked at an airport."
+    ],
+    [
+      "There are several planes at the airport.",
+      "the airport construction very much ."
+    ],
+    [
+      "There's a lot of planes on the airfields.",
+      "the airport highway is outside ."
+    ]
+  ]
+}

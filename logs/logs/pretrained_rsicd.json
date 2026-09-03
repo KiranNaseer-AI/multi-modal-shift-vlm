@@ -1,0 +1,10 @@
+{
+  "experiment": "pretrained_rsicd",
+  "dataset": "RSICD",
+  "adaptation": "none",
+  "bleu4": 0.0383,
+  "cider": 0.2117,
+  "meteor": 0.1079,
+  "reconstructed_from_console_log": true,
+  "note": "Reconstructed from console log after Kaggle session loss. Per-epoch metrics transcribed verbatim from printed output of the completed run. rt_log and best_predictions were not printed and are not recoverable for this seed."
+}

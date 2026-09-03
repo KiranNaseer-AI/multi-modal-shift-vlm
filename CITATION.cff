@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+repository-code: "https://github.com/KiranNaseer-AI/multimodal-domain-shift-vlm"
+title: "Balance Is Not a Universal Good: When Gradient-Imbalance Correction Helps and Hurts in Vision-Language Fine-Tuning"
+authors:
+  - family-names: Naseer
+    given-names: Kiran
+    email: 25016119-003@uog.edu.pk
+    affiliation: University of Gujrat
+  - family-names: Azhar
+    given-names: Samreen
+    affiliation: University of Gujrat
+  - family-names: Mahapatra
+    given-names: Dwarikanath
+    affiliation: Khalifa University
+preferred-citation:
+  type: article
+  title: "Balance Is Not a Universal Good: When Gradient-Imbalance Correction Helps and Hurts in Vision-Language Fine-Tuning"
+  authors:
+    - family-names: Naseer
+      given-names: Kiran
+    - family-names: Azhar
+      given-names: Samreen
+    - family-names: Mahapatra
+      given-names: Dwarikanath
+  journal: "IEEE Transactions on Multimedia"
+  year: 2026

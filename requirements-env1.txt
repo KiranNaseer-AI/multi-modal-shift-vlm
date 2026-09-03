@@ -1,0 +1,11 @@
+# Environment 1: original 7-method sweep, Joint-Schedule FT
+# Python 3.12.12 (verify with: python --version)
+transformers==4.41.2
+peft==0.11.1
+datasets
+pycocoevalcap
+nltk
+evaluate
+torch
+Pillow
+numpy

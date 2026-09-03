@@ -1,0 +1,50 @@
+{
+  "experiment": "lora_rsicd_seed42",
+  "dataset": "RSICD",
+  "seed": 42,
+  "lr": 0.0001,
+  "epochs": 5,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "bleu4_per_epoch": [
+    0.1367,
+    0.1497,
+    0.1693,
+    0.1661,
+    0.1693
+  ],
+  "cider_per_epoch": [
+    0.0721,
+    0.1635,
+    0.2787,
+    0.2595,
+    0.2451
+  ],
+  "meteor_per_epoch": [
+    0.2506,
+    0.2619,
+    0.2752,
+    0.275,
+    0.2802
+  ],
+  "train_loss_per_epoch": [
+    5.969,
+    5.3924,
+    5.3315,
+    5.2883,
+    5.2723
+  ],
+  "val_loss_per_epoch": [
+    6.1847,
+    6.1009,
+    6.0802,
+    6.0578,
+    6.0496
+  ],
+  "best_bleu4": 0.1693,
+  "best_cider": 0.2787,
+  "best_meteor": 0.2752,
+  "best_epoch": 3,
+  "reconstructed_from_console_log": true,
+  "note": "Reconstructed from console log after Kaggle session loss. Per-epoch metrics transcribed verbatim from printed output of the completed run. rt_log and best_predictions were not printed and are not recoverable for this seed."
+}
