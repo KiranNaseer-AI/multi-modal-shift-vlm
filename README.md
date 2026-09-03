@@ -1,22 +1,16 @@
-# Balance Is Not a Universal Good: Reproducibility Package
+# Reassessing Global Gradient-Norm Imbalance in BLIP Fine-Tuning Across Physical Domains: Reproducibility Package
 
 > **Status:** paper under review at IEEE Transactions on
-> Multimedia. The `paper/` folder currently contains a slightly
-> outdated snapshot -- see `paper/README_PLACEHOLDER.md`.
-> Notebooks, scripts, and logs below are current.
+> Multimedia`.
+> Notebooks, scripts, and logs below are.
 
 > **Status:** paper under review at IEEE Transactions on
-> Multimedia. The `paper/` folder currently contains a slightly
-> outdated snapshot -- see `paper/README_PLACEHOLDER.md`.
-> Notebooks, scripts, and logs below are current.
+> Multimedia. The `paper/` folder currently contains a -- see `paper/README_PLACEHOLDER.md`.
 
 
 Code, logs, and analysis scripts for:
 
-> Kiran Naseer, Samreen Azhar, Dwarikanath Mahapatra. "Balance Is
-> Not a Universal Good: When Gradient-Imbalance Correction Helps
-> and Hurts in Vision-Language Fine-Tuning." IEEE Transactions on
-> Multimedia (under review).
+> Kiran Naseer, Samreen Azhar, Dwarikanath Mahapatra. "Reassessing Global Gradient-Norm Imbalance in BLIP Fine-Tuning Across Physical Domains." IEEE Transactions on Multimedia (under review).
 
 This repository contains everything needed to reproduce the
 paper's tables and figures from the released training logs, and
